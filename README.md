@@ -46,7 +46,7 @@ After setting up this project using either the LVGL Project Creator or the Espre
 should be able to build and flash the application following the steps:
 
 * Set the IDF environment: `$ . /path/to/esp-idf/export.sh`
-* Update the project for your target if it has did not: `$ idf.py set-target <esp32xxx>`
+* Update the project for your target if it is not already: `$ idf.py set-target <esp32xxx>`
 * Issue the build: `$ idf.py build`
 * For flashing use the flash command: `$ idf.py flash`
 * Optionally the user can select the port: `$ idf.py -p <COM or TTY port> flash`
